@@ -133,7 +133,7 @@ If the command prompt for "cloudflared tunnel run mywebsite" is not running, the
 Yes, only HTTP is required, not HTTPS, since the client/user will access the local server located and running on your XAMPP server.
 
 **❓ Why does the link I entered go to /dashboard of XAMPP?**  
-Please refer to the [provided process](link_to_bat_file) for resolving this issue.
+Please refer to the [provided process](https://github.com/emmanpbarrameda/How-to-Make-Your-PHP-Made-Capstone-Project-Accessible-on-Online-for-Free?tab=readme-ov-file#-change-the-xampp-htdocs-default-filepath) for resolving this issue.
 
 **❓ Do I need to have a phpMyAdmin password?**  
 If you are applying this to a native PHP website, yes, you will need a password for phpMyAdmin. However, if you are applying this method to Laravel, there is no need to input a password for phpMyAdmin since it will not go to your default Laravel path.
