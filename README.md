@@ -120,31 +120,31 @@ credentials-file: C:/Users/<currentUser>/.cloudflared/<Tunnel ID from .json file
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Double%20Exclamation%20Mark.png" alt="Double Exclamation Mark" width="25" height="25" /> FREQUENTLY ASKED QUESTIONS
 
-**❓ Do I need port forwarding for this Cloudflare method?**  
+** Do I need port forwarding for this Cloudflare method?**  
 No, port forwarding is not required.
 
-**❓ Will this method work on native PHP websites and Laravel?**  
+** Will this method work on native PHP websites and Laravel?**  
 Yes, the tutorial is based on native PHP. For Laravel, you just need to change the `APP_URL` in the `.env` file to your purchased domain. When using `php artisan serve`, declare the Ethernet IPv4 IP and port. You can download the `.bat` file [here](https://github.com/emmanpbarrameda/How-to-Make-Your-PHP-Made-Capstone-Project-Accessible-on-Online-for-Free/blob/main/README-SETUP%20FILES/run_php_artisan_laravel.bat) for running `php artisan serve` automatically.
 
-**❓ What if the "cloudflared tunnel run mywebsite" command prompt is not running?**  
+** What if the "cloudflared tunnel run mywebsite" command prompt is not running?**  
 If the command prompt for "cloudflared tunnel run mywebsite" is not running, the website running through Cloudflare cannot be accessed. In this case, you need to run the provided `.bat` file or execute the command "cloudflared tunnel run mywebsite".
 
-**❓ Is an "HTTP" address required in the Config?**  
+** Is an "HTTP" address required in the Config?**  
 Yes, only HTTP is required, not HTTPS, since the client/user will access the local server located and running on your XAMPP server.
 
-**❓ Why does the link I entered go to /dashboard of XAMPP?**  
+** Why does the link I entered go to /dashboard of XAMPP?**  
 Please refer to the [provided process](https://github.com/emmanpbarrameda/How-to-Make-Your-PHP-Made-Capstone-Project-Accessible-on-Online-for-Free?tab=readme-ov-file#-change-the-xampp-htdocs-default-filepath) for resolving this issue.
 
-**❓ Do I need to have a phpMyAdmin password?**  
+** Do I need to have a phpMyAdmin password?**  
 If you are applying this to a native PHP website, yes, you will need a password for phpMyAdmin. However, if you are applying this method to Laravel, there is no need to input a password for phpMyAdmin since it will not go to your default Laravel path.
 
-**❓ Where can I download the cloudflared.exe file?**  
+** Where can I download the cloudflared.exe file?**  
 You can download it [here](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/).
 
-**❓ What if Cloudflare makes my website slow?**  
+** What if Cloudflare makes my website slow?**  
 Allocate more RAM on XAMPP, then run Cloudflare by executing this command: `cloudflared tunnel --protocol http2 run mywebsite`.
 
-**❓ Where is the default Cloudflared directory?**  
+** Where is the default Cloudflared directory?**  
 The Cloudflare directory is located at `C:/Users/currentUser/.cloudflared`. Read more about it [here](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/tunnel-useful-terms/#default-cloudflared-directory).
 
 ##End
