@@ -1,25 +1,25 @@
 # How to Make Your PHP Made Capstone Project Accessible on Online for Free!
 By using Cloudflare, your localhost project made with native PHP or Laravel can be accessed on the internet. In short, you can access your localhost on the internet by using your preferred domain!
 
-# INTRODUCTION
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bookmark%20Tabs.png" alt="Bookmark Tabs" width="25" height="25" /> INTRODUCTION
 This repository provides instructions and resources for setting up a Cloudflare Tunnel for local development using XAMPP.
 
 ------------
 
-# HOW THIS WORKS?
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" alt="Check Mark Button" width="25" height="25" /> HOW THIS WORKS?
 [![how-this-works](https://raw.githubusercontent.com/emmanpbarrameda/How-to-Make-Your-PHP-Made-Capstone-Project-Accessible-on-Online-for-Free/main/how-this-works.png "how-this-works")](https://raw.githubusercontent.com/emmanpbarrameda/How-to-Make-Your-PHP-Made-Capstone-Project-Accessible-on-Online-for-Free/main/how-this-works.png "how-this-works")
 - Imagine a user or tester accessing your capstone project website on the "project.com" domain. The HTTP request is processed through the Cloudflare network, where configurations and tunnels are checked until it reaches your localhost server on your laptop!
 - By setting up this configuration, you can access your capstone project on the internet, even if it's running on your local laptop or desktop localhost. However, you'll need to purchase a .online domain on Hostinger, which will cost you at least 70 pesos.
 
 
-# REQUIREMENTS:
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" alt="Briefcase" width="25" height="25" /> REQUIREMENTS:
 - Domain Name
 - A laptop with at least 4GB of RAM.
 - Internet connection.
 - XAMPP
 
 
-# PROS & CONS:
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Balance%20Scale.png" alt="Balance Scale" width="25" height="25" /> PROS & CONS:
 ### CONS:
 - Your website will be down if the server (which is your laptop) is off.
 - Slow website performance if your laptop has slow performance.
@@ -29,7 +29,7 @@ This repository provides instructions and resources for setting up a Cloudflare 
 - Easy to modify your code, even when already accessible on the internet.
 
 
-# WATCH THIS YOUTUBE VIDEO BELOW, FOR THE INSTALLATION AND CONFIGURATION PROCESS
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Film%20Frames.png" alt="Film Frames" width="25" height="25" /> WATCH THIS YOUTUBE VIDEO BELOW, FOR THE INSTALLATION AND CONFIGURATION PROCESS
 
 <div align="center">
   <a href="http://www.youtube.com/watch?v=fVBul85jnKs">How to Make Your PHP Made Capstone Project Accessible on Online for Free!</a>
@@ -42,7 +42,7 @@ This repository provides instructions and resources for setting up a Cloudflare 
 
 
 
-# IMPORTANT LINKS
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="25" height="25" /> IMPORTANT LINKS
 
 - **BUY DOMAIN HERE**: https://www.hostinger.ph/domain-checker
 - **CLOUDFLARE DASHBOARD**: https://dash.cloudflare.com/
@@ -51,31 +51,31 @@ This repository provides instructions and resources for setting up a Cloudflare 
 
 
 
-# CLOUDFLARE TUNNEL SETUP
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" alt="Gear" width="25" height="25" /> CLOUDFLARE TUNNEL SETUP
 
-## DETAILED CLOUDFLARE TUNNEL SETUP HERE:
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Ledger.png" alt="Ledger" width="25" height="25" /> DETAILED CLOUDFLARE TUNNEL SETUP HERE:
 https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-local-tunnel/
 
 
 
-## SUMMARIZED CLOUDFLARE TUNNEL SETUP COMMANDS:
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Green%20Book.png" alt="Green Book" width="25" height="25" /> SUMMARIZED CLOUDFLARE TUNNEL SETUP COMMANDS:
 
 - Move your downloaded Cloudflare executable file to a separate folder, then rename it to `cloudflared.exe`
 - Go to the search bar of the file explorer where the `cloudflared.exe` is located, then type `cmd`
 - Now, the command prompt is open. Type the following commands:
 
-### **- 1ST CMD PROMPT COMMAND:**
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Keycap%20Digit%20One.png" alt="Keycap Digit One" width="25" height="25" /> **- 1ST CMD PROMPT COMMAND:**
 `.\cloudflared.exe --version`
 
 
 
-### **- 2ND CMD PROMPT COMMAND:**
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Keycap%20Digit%20Two.png" alt="Keycap Digit One" width="25" height="25" /> **- 2ND CMD PROMPT COMMAND:**
 `cloudflared tunnel login`
 - Now, click the provided link in the command prompt to open it in your active browser, where your Cloudflare dashboard account is logged in. Next, **click on your domain** and then **authorize** it.
 
 
 
-### **- 3RD CMD PROMPT COMMAND:**
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Keycap%20Digit%20Three.png" alt="Keycap Digit One" width="25" height="25" /> **- 3RD CMD PROMPT COMMAND:**
 `cloudflared tunnel create mywebsite`
 > Note: "**mywebsite**" is the name of your website. Please watch my [YouTube Tutorial](https://youtu.be/fVBul85jnKs "YouTube Tutorial") for the installation guide.
 
@@ -91,19 +91,19 @@ credentials-file: C:/Users/<currentUser>/.cloudflared/<Tunnel ID from .json file
 
 
 
-### **- 4TH CMD PROMPT COMMAND:**
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Keycap%20Digit%20Four.png" alt="Keycap Digit One" width="25" height="25" /> **- 4TH CMD PROMPT COMMAND:**
 `cloudflared tunnel route dns mywebsite yourdomain.com`
 > Note: **mywebsite** is the name of your website, then **yourdomain.com** is your domain.
 
 
 
-### **- 5TH CMD PROMPT COMMAND:**
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Keycap%20Digit%20Five.png" alt="Keycap Digit Five" width="25" height="25" /> **- 5TH CMD PROMPT COMMAND:**
 `cloudflared tunnel run mywebsite`
 > Note: "**mywebsite**" is the name of your website. Please watch my [YouTube Tutorial](https://youtu.be/fVBul85jnKs "YouTube Tutorial") for the installation guide.
 
 
 
-# HOW TO RUN CLOUDFLARED IF CMD IS NOT RUNNING
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Keyboard.png" alt="Keyboard" width="25" height="25" /> HOW TO RUN CLOUDFLARED IF CMD IS NOT RUNNING
 - Go to the search bar of the file explorer where the `cloudflared.exe` is located, then type `cloudflared tunnel run mywebsite`
 
 - **However, you can run the `cloudflared tunnel run mywebsite` automatically**,  by using my premade `.bat file` ([download it here](https://github.com/emmanpbarrameda/How-to-Make-Your-PHP-Made-Capstone-Project-Accessible-on-Online-for-Free/blob/main/README-SETUP%20FILES/cloudflared_run_server.bat "download it here")). Just move the `.bat file` to the folder where `cloudflared.exe` is located, then right-click, and select "Run as administrator."
@@ -111,14 +111,14 @@ credentials-file: C:/Users/<currentUser>/.cloudflared/<Tunnel ID from .json file
 
 
 
-# CHANGE THE XAMPP HTDOCS DEFAULT FILEPATH
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/File%20Folder.png" alt="File Folder" width="25" height="25" /> CHANGE THE XAMPP HTDOCS DEFAULT FILEPATH
 
 - Download the `index.php` file [here](https://github.com/emmanpbarrameda/How-to-Make-Your-PHP-Made-Capstone-Project-Accessible-on-Online-for-Free/blob/main/README-SETUP%20FILES/index.php "here"), then place this file in the XAMPP htdocs folder, and replace the current index.php.
 - Update the `header('Location: '.$uri.'/myproject/login.php');` in index.php according to your project's file destination path.
 
 
 
-# FREQUENTLY ASKED QUESTIONS
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Double%20Exclamation%20Mark.png" alt="Double Exclamation Mark" width="25" height="25" /> FREQUENTLY ASKED QUESTIONS
 
 **❓ Do I need port forwarding for this Cloudflare method?**  
 No, port forwarding is not required.
@@ -149,7 +149,7 @@ The Cloudflare directory is located at `C:/Users/currentUser/.cloudflared`. Read
 
 ##End
 
-# Get in touch
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="25" height="25" /> GET IN TOUCH
 
 <p align="center">
   <a href="https://emmanpbarrameda.github.io" target="_blank"><img src="https://img.shields.io/badge/My Portfolio-%20-blue?style=for-the-badge&logo=web"></a>
