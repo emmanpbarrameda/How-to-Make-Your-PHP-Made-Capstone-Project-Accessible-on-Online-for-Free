@@ -103,7 +103,7 @@ credentials-file: C:/Users/<currentUser>/.cloudflared/<Tunnel ID from .json file
 
 
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Keyboard.png" alt="Keyboard" width="25" height="25" /> HOW TO RUN CLOUDFLARED IF CMD IS NOT RUNNING
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Keyboard.png" alt="Keyboard" width="25" height="25" /> HOW TO RUN CLOUDFLARED, IF CMD IS NOT RUNNING
 - Go to the search bar of the file explorer where the `cloudflared.exe` is located, then type `cloudflared tunnel run mywebsite`
 
 - **However, you can run the `cloudflared tunnel run mywebsite` automatically**,  by using my premade `.bat file` ([download it here](https://github.com/emmanpbarrameda/How-to-Make-Your-PHP-Made-Capstone-Project-Accessible-on-Online-for-Free/blob/main/README-SETUP%20FILES/cloudflared_run_server.bat "download it here")). Just move the `.bat file` to the folder where `cloudflared.exe` is located, then right-click, and select "Run as administrator."
