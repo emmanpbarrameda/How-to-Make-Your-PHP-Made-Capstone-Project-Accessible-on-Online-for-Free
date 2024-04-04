@@ -1,0 +1,8 @@
+# EM_DEV NOTES:
+# Move the .yml file to the folder where cloudflared.exe is located, then modify the url, tunnel, and credentials-file lines.
+# Note: HTTP is required for the URL, not HTTPS, as you are using the Ethernet IPv4 address.
+# https://www.youtube.com/watch?v=fVBul85jnKs
+
+url: http://ipv4EthernetIPHere:port
+tunnel: <Tunnel ID from .json file>
+credentials-file: C:/Users/<currentUser>/.cloudflared/<Tunnel ID from .json file>.json
