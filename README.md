@@ -93,6 +93,7 @@ credentials-file: C:/Users/<currentUser>/.cloudflared/<Tunnel ID from .json file
 `cloudflared tunnel run mywebsite`
 > Note: "**mywebsite**" is the name of your website. Please watch my [YouTube Tutorial](https://youtu.be/fVBul85jnKs "YouTube Tutorial") for the installation guide.
 
+Take note: if `cloudflared` is not working, try the `.\cloudflared` then the following commands 
 
 <br>
 </br>
